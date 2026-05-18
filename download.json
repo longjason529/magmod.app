@@ -1,0 +1,30 @@
+)]}'
+{
+  "id": "49c721f0fda7379d1c0d09fb8c669fd150580efb",
+  "entries": [
+    {
+      "mode": 33188,
+      "type": "blob",
+      "id": "4868555b340bd417b4a8d28d6b92590572aa11b9",
+      "name": "Android.mk"
+    },
+    {
+      "mode": 33188,
+      "type": "blob",
+      "id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "name": "MODULE_LICENSE_APACHE2"
+    },
+    {
+      "mode": 33188,
+      "type": "blob",
+      "id": "c5b1efa7aac764ae6d8da63476a2d5cec02a6a5d",
+      "name": "NOTICE"
+    },
+    {
+      "mode": 33188,
+      "type": "blob",
+      "id": "48d5d4aed7a711b61bcc3eaae1597354fc9e7804",
+      "name": "cmd.cpp"
+    }
+  ]
+}
