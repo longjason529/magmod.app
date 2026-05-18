@@ -1,10 +1,10 @@
 {
-  "name": "acode-plugin",
+  "name": "magmod.app",
   "version": "1.0.0",
   "description": "Template for Acode plugin",
   "main": "src/main.js",
-  "repository": "https://github.com/Acode-Foundation/acode-plugin.git",
-  "author": "Acode Foundation",
+  "repository": "https://github.com/longjason529/magmod.app.git",
+  "author": "Jason Long",
   "license": "MIT",
   "dependencies": {
     "acode-plugin-types": "^1.11.7-patch.2",
@@ -12,11 +12,14 @@
   },
   "devDependencies": {
     "esbuild": "^0.25.8",
+    "gh-pages": "^6.3.0",
     "jszip": "^3.10.1"
   },
   "scripts": {
     "dev": "node esbuild.config.mjs --serve",
-    "build": "node esbuild.config.mjs"
+    "build": "node esbuild.config.mjs",
+    "deploy": "npm run build && gh-pages -d dist",
+    "deploy:ci": "node scripts/deploy-gh-pages.js"
   },
   "browserslist": "cover 100%,not android < 5"
 }
